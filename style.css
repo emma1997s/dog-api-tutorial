@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body,
+html {
+  font-family: sans-serif;
+  background-color: lightgray;
+  scroll-behavior: smooth;  
+}
+
+.fetch_api img {
+  display: block;
+  width: 90%;
+  margin: 1rem auto;
+  object-fit: contain;
+}
+
+.btn_check button {
+  display: block;
+  width: 90%;
+  margin: 0.1rem auto;
+  background-color: #030303;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 0;
+  border-radius: 2px;
+}
+
+.btn_check button:focus {
+  outline: none;
+}
+
+#app {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: green;
+  text-decoration: underline;
+  font-weight: 0.5rem;
+}
