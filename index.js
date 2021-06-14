@@ -34,11 +34,10 @@ fetch('https://dog.ceo/api/breeds/image/random/3').then((res) => res.json())
 .then((data) => {
   apiClient.innerHTML = `<img src=${data.message[0]} alt="pic"/>`;
 
-  // console.log(apiClient);
+  console.log(data);
 }) 
 .catch((err) => {
   console.log(err);
 })
 }
 
-btnFetchData();
